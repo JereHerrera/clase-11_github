@@ -1,0 +1,52 @@
+/* Reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ---nav--- */
+nav li{
+    display: inline-block;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+nav li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ---main general--- */
+main h1{
+    font-family: "SIXTY Two Text", serif;
+}
+
+h1{
+    text-align: center;
+    font-family: "Bacasine Antique", serif;
+}
+
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 40px;
+}
+
+ul{
+    text-align: center;
+}
+
+#Logo-Wos.com{
+    font-size: small 20px;
+}
+
+.tienda{
+    align-items: center;
+}
+
+.galeria img{
+    width: 250px;
+}
