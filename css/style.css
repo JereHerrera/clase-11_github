@@ -10,6 +10,8 @@ nav li{
     display: inline-block;
     padding: 20px;
     background-color: blueviolet;
+    background-size: 100px 100px;;
+    margin: 10px;
 }
 
 nav li a{
@@ -17,6 +19,24 @@ nav li a{
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 10px;
+    font-family: Playfair Display;
+}
+
+nav{
+    flex-direction: row;
+}
+
+.nav img{
+    justify-content: left;
+}
+
+
+.img-fluid{
+    width: 90px;
+    height: 90px;
+    margin: 30px;
+    justify-content: center;
 }
 
 /* ---main general--- */
@@ -29,11 +49,7 @@ h1{
     font-family: "Bacasine Antique", serif;
 }
 
-h2{
-    text-align: center;
-    background-color: blueviolet;
-    font-size: 40px;
-}
+
 
 ul{
     text-align: center;
@@ -47,6 +63,145 @@ ul{
     align-items: center;
 }
 
-.galeria img{
-    width: 250px;
+.galeria-wos{
+    width: 400px;
+    height: 350px;
+}
+
+.container-text-center-texto-centrado{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: Playfair Display;
+    background-color:rgb(117, 38, 190);
+    padding: 10px;
+}
+body{
+    background-color: #1f1f1f;
+}
+
+div{
+    padding: 20px;
+}
+
+.Nuevo-album-de-wos{
+    height: 400px;
+    width: 400px;
+    border: dotted 4px black;
+    margin-top: 45px;
+}
+
+.album-descartable{
+    display: flex;
+    flex-direction: row;
+    min-height: 650px;
+}
+
+.text-end-texto-descartable{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    border: dotted 4px black;
+    text-align: center;
+    font-size: 25px;
+}
+
+section h1{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+
+
+footer{
+    background-color: blueviolet;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div a img{
+    padding: 9px;
+}
+
+.discografia{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+}
+
+.contacto.html nav li{
+    display: inline-block;
+    padding: 20px;
+    background-color: blueviolet;
+    background-size: 100px 100px;;
+    margin: 10px;
+}
+
+.tienda{
+    flex-direction: row;
+    align-items: center;
+}
+
+div p{
+    color: white;
+    font-size: medium;
+}
+
+.tienda{
+    color: white;
+}
+
+.contacto{
+    color: white;
+    font-family: Russo One;
+}
+
+.Canciones-mas-reconocidas{
+    color: white;
+    text-align: center;
+    font-family: "Bacasine Antique", serif;
+}
+
+.galeria{
+    color: white;
+    text-align: center;
+    font-family: "Bacasine Antique", serif;
+}
+
+.Shows{
+    color: white;
+    text-align: center;
+    font-family: "Bacasine Antique", serif;
+}
+
+.tienda{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.tienda div{
+    border-radius: 15px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+}
+
+.tienda img{
+    height: 300px;
+}
+
+.tienda div p{
+    font-size: 1rem;
 }
